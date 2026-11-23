@@ -1,5 +1,8 @@
 # AMGR 0.2.5 – pass / fail checklist
 
+Update 2026-11-23: AMGR 0.2.5 has since been tested by the maintainer on an Akai Force (Gen1, MPC OS 3.9.1); see `tested.json`.
+The NOT RUN rows below record what the build sandbox could not check, not the result of that hardware test.
+
 PASS = checked in this build (offline, in the build sandbox). NOT RUN = needs the Force (or a person) and has not been done
 for this exact build. FAIL = known problem.
 

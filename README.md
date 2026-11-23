@@ -25,10 +25,8 @@ Needs MPC OS 3.x on an armv7 Force/MPC. Download `AMGR-<version>-mpc-armv7.zip` 
 
 ## Status
 
-0.2.5 has been built, packaged (install/uninstall scripts verified, checksums verified, ARMv7 / glibc <= 2.27) and handed to the
-maintainer for testing on their own Akai Force. See `docs/CHECKLIST.md` for what has and hasn't been independently re-verified
-on hardware since the last round of fixes (text rendering, the SAMPLES browser's start folder, the data wheel's reverse
-direction on open lists, and page content "baking" onto other pages).
+0.2.5 is built, packaged (install/uninstall scripts verified, checksums verified, ARMv7 / glibc <= 2.27) and has been tested
+by the maintainer on an Akai Force (Gen1, MPC OS 3.9.1). See `tested.json`. `docs/CHECKLIST.md` lists the build-time checks.
 
 ## Roadmap
 
