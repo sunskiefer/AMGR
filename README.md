@@ -3,8 +3,9 @@
 **A four-layer granular instrument for the Akai Force and MPC OS (VST2, ARMv7).** Vendor: L'Cronx. Current version: 0.2.5.
 
 AMGR is a granular sample mangler in the spirit of the Tasty Chips GR-2 ("Paulstretch"-style time-stretching and smearing),
-built from a clean-room read of the GR-2's manual and factory presets, not from its code. Four independent layers each load
-their own sample; touching a point on a layer's waveform sets where its grains play.
+built from a clean-room read of the GR-2's manual and factory presets, not from its code, and aimed at much lower resource
+consumption so it runs comfortably on the Force's own CPU. Four independent layers each load their own sample; touching a
+point on a layer's waveform sets where its grains play.
 
 ## What it does
 
