@@ -1,0 +1,608 @@
+{
+ "name": "AMGR",
+ "params": [
+  {
+   "key": "preset",
+   "name": "FACTORY",
+   "min": 0,
+   "max": 255,
+   "default": 0,
+   "display": "int",
+   "nudge_pct": 10,
+   "dynamic_display": true
+  },
+  {
+   "key": "user",
+   "name": "USER",
+   "min": 1,
+   "max": 999,
+   "default": 1,
+   "display": "int",
+   "nudge_pct": 10,
+   "dynamic_display": true
+  },
+  {
+   "key": "save",
+   "name": "SAVE",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "bend",
+   "name": "BEND",
+   "min": 1,
+   "max": 24,
+   "default": 2,
+   "display": "int",
+   "dynamic_display": true
+  },
+  {
+   "key": "wav1",
+   "name": "WAV 1",
+   "min": 0,
+   "max": 999,
+   "default": 0,
+   "display": "int",
+   "nudge_pct": 5,
+   "dynamic_display": true
+  },
+  {
+   "key": "wav2",
+   "name": "WAV 2",
+   "min": 0,
+   "max": 999,
+   "default": 0,
+   "display": "int",
+   "nudge_pct": 5,
+   "dynamic_display": true
+  },
+  {
+   "key": "wav3",
+   "name": "WAV 3",
+   "min": 0,
+   "max": 999,
+   "default": 0,
+   "display": "int",
+   "nudge_pct": 5,
+   "dynamic_display": true
+  },
+  {
+   "key": "wav4",
+   "name": "WAV 4",
+   "min": 0,
+   "max": 999,
+   "default": 0,
+   "display": "int",
+   "nudge_pct": 5,
+   "dynamic_display": true
+  },
+  {
+   "key": "envl",
+   "name": "LAYER",
+   "min": 1,
+   "max": 4,
+   "default": 1,
+   "display": "int",
+   "dynamic_display": true
+  },
+  {
+   "key": "atk",
+   "name": "ATTACK",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "dec",
+   "name": "DECAY",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "sus",
+   "name": "SUSTAIN",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "rel",
+   "name": "RELEASE",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "pos1",
+   "name": "POS 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.1,
+   "dynamic_display": true
+  },
+  {
+   "key": "pos2",
+   "name": "POS 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.3,
+   "dynamic_display": true
+  },
+  {
+   "key": "pos3",
+   "name": "POS 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.55,
+   "dynamic_display": true
+  },
+  {
+   "key": "pos4",
+   "name": "POS 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "size1",
+   "name": "SIZE 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "size2",
+   "name": "SIZE 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "size3",
+   "name": "SIZE 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "size4",
+   "name": "SIZE 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "dens1",
+   "name": "DENS 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.6,
+   "dynamic_display": true
+  },
+  {
+   "key": "dens2",
+   "name": "DENS 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.6,
+   "dynamic_display": true
+  },
+  {
+   "key": "dens3",
+   "name": "DENS 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.6,
+   "dynamic_display": true
+  },
+  {
+   "key": "dens4",
+   "name": "DENS 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.6,
+   "dynamic_display": true
+  },
+  {
+   "key": "pitch1",
+   "name": "PITCH 1",
+   "min": -24,
+   "max": 24,
+   "default": 0,
+   "display": "int",
+   "dynamic_display": true
+  },
+  {
+   "key": "pitch2",
+   "name": "PITCH 2",
+   "min": -24,
+   "max": 24,
+   "default": 0,
+   "display": "int",
+   "dynamic_display": true
+  },
+  {
+   "key": "pitch3",
+   "name": "PITCH 3",
+   "min": -24,
+   "max": 24,
+   "default": 0,
+   "display": "int",
+   "dynamic_display": true
+  },
+  {
+   "key": "pitch4",
+   "name": "PITCH 4",
+   "min": -24,
+   "max": 24,
+   "default": 0,
+   "display": "int",
+   "dynamic_display": true
+  },
+  {
+   "key": "level1",
+   "name": "LEVEL 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "level2",
+   "name": "LEVEL 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.6,
+   "dynamic_display": true
+  },
+  {
+   "key": "level3",
+   "name": "LEVEL 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_display": true
+  },
+  {
+   "key": "level4",
+   "name": "LEVEL 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.4,
+   "dynamic_display": true
+  },
+  {
+   "key": "sprd1",
+   "name": "SPRD 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.1,
+   "dynamic_display": true
+  },
+  {
+   "key": "sprd2",
+   "name": "SPRD 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.1,
+   "dynamic_display": true
+  },
+  {
+   "key": "sprd3",
+   "name": "SPRD 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.1,
+   "dynamic_display": true
+  },
+  {
+   "key": "sprd4",
+   "name": "SPRD 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.1,
+   "dynamic_display": true
+  },
+  {
+   "key": "pan1",
+   "name": "PAN 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.3,
+   "dynamic_display": true
+  },
+  {
+   "key": "pan2",
+   "name": "PAN 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.7,
+   "dynamic_display": true
+  },
+  {
+   "key": "pan3",
+   "name": "PAN 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "pan4",
+   "name": "PAN 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.85,
+   "dynamic_display": true
+  },
+  {
+   "key": "atk1",
+   "name": "ATK 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "atk2",
+   "name": "ATK 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "atk3",
+   "name": "ATK 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "atk4",
+   "name": "ATK 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "dec1",
+   "name": "DEC 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "dec2",
+   "name": "DEC 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "dec3",
+   "name": "DEC 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "dec4",
+   "name": "DEC 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "sus1",
+   "name": "SUS 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "sus2",
+   "name": "SUS 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "sus3",
+   "name": "SUS 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "sus4",
+   "name": "SUS 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "rel1",
+   "name": "REL 1",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "rel2",
+   "name": "REL 2",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "rel3",
+   "name": "REL 3",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "rel4",
+   "name": "REL 4",
+   "min": 0,
+   "max": 1,
+   "default": 0.45,
+   "dynamic_display": true
+  },
+  {
+   "key": "cut",
+   "name": "CUTOFF",
+   "min": 0,
+   "max": 1,
+   "default": 1.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "res",
+   "name": "RES",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "ftype",
+   "name": "FILTER",
+   "min": 0,
+   "max": 1,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "drive",
+   "name": "DRIVE",
+   "min": 0,
+   "max": 1,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "vol",
+   "name": "VOLUME",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  },
+  {
+   "key": "shape",
+   "name": "SHAPE",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_display": true
+  },
+  {
+   "key": "jitt",
+   "name": "JITTER",
+   "min": 0,
+   "max": 1,
+   "default": 0.3,
+   "dynamic_display": true
+  },
+  {
+   "key": "rev",
+   "name": "REVERSE",
+   "min": 0,
+   "max": 1,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "dtime",
+   "name": "TIME",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_display": true
+  },
+  {
+   "key": "dfb",
+   "name": "FDBK",
+   "min": 0,
+   "max": 1,
+   "default": 0.35,
+   "dynamic_display": true
+  },
+  {
+   "key": "dtone",
+   "name": "TONE",
+   "min": 0,
+   "max": 1,
+   "default": 0.6,
+   "dynamic_display": true
+  },
+  {
+   "key": "dmix",
+   "name": "DLY MIX",
+   "min": 0,
+   "max": 1,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "vsize",
+   "name": "VB SIZE",
+   "min": 0,
+   "max": 1,
+   "default": 0.6,
+   "dynamic_display": true
+  },
+  {
+   "key": "vdamp",
+   "name": "VB DAMP",
+   "min": 0,
+   "max": 1,
+   "default": 0.4,
+   "dynamic_display": true
+  },
+  {
+   "key": "vmix",
+   "name": "VB MIX",
+   "min": 0,
+   "max": 1,
+   "default": 0.15,
+   "dynamic_display": true
+  },
+  {
+   "key": "width",
+   "name": "WIDTH",
+   "min": 0,
+   "max": 1,
+   "default": 0.8,
+   "dynamic_display": true
+  }
+ ]
+}

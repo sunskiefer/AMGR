@@ -1,0 +1,6 @@
+build/
+dist/
+stage/
+__pycache__/
+third_party/
+*.so

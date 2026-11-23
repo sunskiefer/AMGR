@@ -1,0 +1,21 @@
+{
+  "name": "AMGR",
+  "vendor": "L'Cronx",
+  "uid": "LCAM",
+  "version": 2,
+  "so": "amgr.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "skin_post": "tools/skin_post.py",
+  "cc": false,
+  "nrpn": false,
+  "defines": {
+    "SAMPLE_ACCURATE": 1,
+    "PARAM_TEXT_MAX": 48,
+    "MODULE_SUBDIR": "\"Samples\"",
+    "HAS_DIRTY": 1
+  },
+  "programs": {
+    "param": "preset"
+  }
+}
